@@ -1,10 +1,10 @@
 h1{
-    color:rgb(50, 32, 32);
+    color:rgb(22, 12, 12);
     text-align: center;
     
   }
 p{
-    color:white;
+    color:rgb(88, 5, 5);
 
 }
 .clashroyale{
@@ -19,7 +19,7 @@ body{
   background-position: center center ;
   background-size: cover;
   background-repeat: no-repeat; */
-  /* background:black url("bg.jpg") center center / cover no-repeat;
+  background:black url("bg.jpg") center center / cover no-repeat;
   background-attachment: fixed;
 
 }
