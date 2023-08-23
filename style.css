@@ -18,8 +18,8 @@ body{
   background-image: url("bt.jpg");
   background-position: center center ;
   background-size: cover;
-  background-repeat: no-repeat; */
-  background:black url("bg.jpg") center center / cover no-repeat;
+  background-repeat: no-repeat; 
+  /* background:black url("bt.jpg") center center / cover no-repeat; */
   background-attachment: fixed;
 
 }
