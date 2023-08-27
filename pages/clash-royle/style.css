@@ -1,0 +1,76 @@
+h1{
+    color:rgb(245, 245, 245);
+    text-align: center;
+    
+  }
+p{
+    color:whitesmoke;
+
+}
+.clashroyale{
+  color:whitesmoke;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+  color:whitesmoke;
+}
+.img{
+  width: 100%;
+}
+body{
+  background-image: url("bg.jpg");
+  background-position: center center ;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* background:black url("bt.jpg") center center / cover no-repeat; */
+  background-attachment: fixed;
+  filter: brightness(70%)
+}
+footer{
+  color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
