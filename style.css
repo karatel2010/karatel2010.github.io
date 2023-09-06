@@ -1,24 +1,198 @@
-h2{
-    color:whitesmoke;
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
     
-  }
-p{
+}
+header{
+    background-image: url(i.jpg);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*padding-top: 10px;
+    padding-right: 15%;
+    padding-bottom: 10px;
+     padding-left: 15%; */
+    padding: 10px 15% ;
+    
+}
+button{
+
+    background: none;
+    border: none;
+    outline: none;
+
+} 
+main{
+    /* background-image: url("k.jpg"); */
+}   
+.logo{
+    height: 50px;
+
+}
+.logo img{
+    height: 100%;
+}
+header a{
+     color: whitesmoke;
+     text-transform: uppercase;
+}
+.navlist{
+    display: flex;
+    gap:20px; 
+}
+.nav{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;  
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav a{
+    padding:10px 15px 10px 15px ;
+}
+.pl{
+    padding-left: 25px;
+}
+.navl{
+    background-color: rgb(12, 12, 235);
+    
+    /* margin-left: 300px; */
+   
+    
+}
+main a{
+    color: rgb(0, 0, 0);
+}
+
+.previo{
+    padding-top:40px ;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: url("k.jpg");
+    background-attachment: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    
+}
+.FEST{
+    font-size: 250%;
+    margin-top: 60px;
+}
+.insteam{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.datedest{
+    margin-top: 20px;
+
+}
+.search{
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.searchnav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 10px ;
+}
+.searchbutton {
+    position: absolute;
+    right: 5%;
+    height: 100%;
+    padding: 5px;
+}
+.searchbutton img{
+    height: 100%;
+}
+.searchbutton:hover{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.allprice{
+    font-size: 80%;
+}
+.clybn{
+    position: relative;
+    display:inline-block;
+    /* margin: 100px;
+    padding: 100px; */
+    /* background-image: url("i.jpg");
     color:whitesmoke;
 }
 
 
-
-body{
-  background-image: url("pages/clash-royle/bt.jpg");
-  background-position: center center ;
-  background-size: cover;
-  background-repeat: no-repeat; 
-  /* background:black url("bt.jpg") center center / cover no-repeat; */
-  background-attachment: fixed;
-  filter: brightness(70%);
-  color : whitesmoke;
+p{
+    margin-left: 10px;
 }
+.discount{
+    position: absolute;
+    right: 5px; 
+    top: 40px;
+    background-image : url("o.png");
+}
+    
+button{
+    /* margin-left: 10px; */
+    /* width: 80%;
+    display: block;
+    margin: auto;
+    
+}
+.img{
 
- 
-
+    width: 100px;
+} */ 
