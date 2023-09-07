@@ -59,7 +59,11 @@ header a{
     padding-left: 25px;
 }
 .navl{
-    background-color: rgb(12, 12, 235);
+    background-image: url("c12.jpg");
+    background-attachment: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     /* margin-left: 300px; */
    
@@ -105,21 +109,37 @@ main a{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    border-radius: 10px ;
+    padding-right: 40px;
 }
 .searchbutton {
     position: absolute;
-    right: 5%;
+    right: 1px;
+    border: 30px;
+    filter: brightness(80%);
+    
+    
+    
     height: 100%;
     padding: 5px;
+    background-color: rgb(99, 99, 232);
+    border-radius: 3px;
 }
 .searchbutton img{
     height: 100%;
 }
-.searchbutton:hover{
-    color: brown;
+.searchbutton:active{
+    background: rgb(255, 254, 254);
+    box-shadow: 0 3px rgb(255, 255, 255) inset;
 }
-
+.searchbutton:hover{
+    filter: brightness(110%);
+}
+a:hover{
+    color: blue;
+}
+.search:focus{
+    background-color: black;
+}
 
 
 
